@@ -13,7 +13,7 @@ int main(int argc, char **argv)
     std::cout << "valueA = " << valueA
         << ", is_dummy(): " << primeUtil.is_dummy(valueA) <<std::endl;
     std::cout << "valueB = " << valueB 
-        << ", is_dummy(): " << primeUtil.is_dummy_negated(valueB) <<std::endl;
+        << ", is_dummy_negated(): " << primeUtil.is_dummy_negated(valueB) <<std::endl;
 
     return 0;
 }
