@@ -5,5 +5,5 @@ set(CMAKE_CXX_STANDARD 17)
 find_library(PRIMEUTIL_LIB libPrimeUtil.so)
 message(STATUS ${PRIMEUTIL_LIB})
 
-add_executable(largest_prime_factor src/main.cpp)
-target_link_libraries(largest_prime_factor PRIVATE ${PRIMEUTIL_LIB})
+add_executable(main src/main.cpp)
+target_link_libraries(main PRIVATE ${PRIMEUTIL_LIB})
