@@ -32,3 +32,6 @@ make
 ```
 ./main
 ```
+
+## References 
+- [A minimal example using cmake to create a c++ shared library](https://surfertas.github.io/cmake/cpp/projecteuler/2019/05/01/cmake.html)
