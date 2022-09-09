@@ -33,5 +33,14 @@ make
 ./main
 ```
 
+## C. Docker.
+
+- From base repository folder as base directory: 
+
+### 1. Docker-compose: build library.
+```
+sudo docker compose -f ./docker-compose.yml -p cpp-container up --build
+```
+
 ## References 
 - [A minimal example using cmake to create a c++ shared library](https://surfertas.github.io/cmake/cpp/projecteuler/2019/05/01/cmake.html)
