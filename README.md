@@ -1,6 +1,5 @@
 # CMakeSharedLib
-Example of shared library. Using docker and cmake, to build shared library, install it, and consumiton by a client.
-
+Example of shared library. Using docker and cmake, to build shared library, install it in a Linux environment, and used by a client.
 ## A. Build shared lib and install it.
 
 - From "HeroesLibrary/build" directory as base directory: 
