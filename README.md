@@ -1,4 +1,5 @@
 # CMakeSharedLib
+Example of shared library. Using docker and cmake, to build shared library, install it, and consumiton by a client.
 
 ## A. Build shared lib and install it.
 
