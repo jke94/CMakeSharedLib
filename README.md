@@ -2,7 +2,7 @@
 
 ## A. Build shared lib and install it.
 
-- From "PrimeLibrary/build" directory as base directory: 
+- From "HeroesLibrary/build" directory as base directory: 
 
 ### 1. Make the generator and build from the build directory.
 ```
@@ -18,7 +18,7 @@ sudo make install
 ```
 ## B. Consume shared lib by a client.
 
-- From "PrimeClient/build" directory as base directory: 
+- From "HeroesClient/build" directory as base directory: 
 
 ### 1. Make the generator and build from the build directory.
 ```
