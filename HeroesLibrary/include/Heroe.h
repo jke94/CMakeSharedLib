@@ -1,3 +1,6 @@
+#ifndef HEROES_H
+#define HEROES_H
+
 namespace heroeslibrary
 {
     class Heroe
@@ -44,3 +47,5 @@ namespace heroeslibrary
             double getRanking();
     };
 }
+
+#endif // HEROES_H

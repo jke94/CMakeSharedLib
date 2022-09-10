@@ -5,8 +5,11 @@ namespace heroeslibrary
     Batman:: Batman(int force, int flexibility, int courage, int loyalty):
         Heroe(force, flexibility, courage, loyalty)
     {
+        force = force;
+        flexibility = flexibility;
+        courage = courage;
+        loyalty = loyalty;
     }
-    
     Batman::~Batman()
     {
     }

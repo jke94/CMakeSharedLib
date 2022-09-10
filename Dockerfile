@@ -3,10 +3,13 @@ RUN apt-get update && apt-get install -y \
     cmake \
     g++ \
     && rm -rf /var/lib/apt/lists/*
-COPY /PrimeLibrary /PrimeLibrary
-WORKDIR /PrimeLibrary/build
+COPY /HeroesLibrary /HeroesLibrary
+COPY /HeroesClient /HeroesClient
+WORKDIR /HeroesLibrary/build
 RUN cmake ..
-RUN make 
-# TODO: Move to other FROM (layer)
+RUN make
 RUN make install
-CMD ["ls", "-l"]
+WORKDIR /HeroesClient/build
+RUN cmake ..
+RUN make
+CMD ["./main"]
