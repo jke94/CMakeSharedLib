@@ -1,8 +1,8 @@
 # CMakeSharedLib
-
+Example of shared library. Using docker and cmake, to build shared library, install it in a Linux environment, and used by a client.
 ## A. Build shared lib and install it.
 
-- From "PrimeLibrary/build" directory as base directory: 
+- From "HeroesLibrary/build" directory as base directory: 
 
 ### 1. Make the generator and build from the build directory.
 ```
@@ -18,7 +18,7 @@ sudo make install
 ```
 ## B. Consume shared lib by a client.
 
-- From "PrimeClient/build" directory as base directory: 
+- From "HeroesClient/build" directory as base directory: 
 
 ### 1. Make the generator and build from the build directory.
 ```
@@ -31,6 +31,15 @@ make
 ### 3. Run executable
 ```
 ./main
+```
+
+## C. Docker.
+
+- From base repository folder as base directory: 
+
+### 1. Docker-compose: build library.
+```
+sudo docker compose -f ./docker-compose.yml -p cpp-container up --build
 ```
 
 ## References 
